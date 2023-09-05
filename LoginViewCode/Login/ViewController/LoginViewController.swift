@@ -39,6 +39,10 @@ extension LoginViewController:LoginScreenProtocol {
 }
 
 extension LoginViewController:UITextFieldDelegate {
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        self.loginScreen?.validaTextFields()
+    }
+    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         
