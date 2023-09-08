@@ -6,10 +6,13 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class RegisterViewController: UIViewController {
 
     var registerScreen:RegisterScreen?
+    
+    var auth:Auth?
     
     override func loadView() {
         self.registerScreen = RegisterScreen()
@@ -20,6 +23,7 @@ class RegisterViewController: UIViewController {
         super.viewDidLoad()
         self.registerScreen?.configTextFieldDelegate(delegate: self)
         self.registerScreen?.delegate(delegate: self)
+        self.auth = Auth.auth()
     }
 
 }
@@ -41,6 +45,14 @@ extension RegisterViewController:RegisterScreenProtocol {
     }
     
     func actionregisterButton() {
-        print("register button")
+        guard let register = self.registerScreen else {return}
+        
+        self.auth?.createUser(withEmail: register.getEmail(), password: register.getPassword(), completion: { result, error in
+            if error != nil {
+                print("Houve um erro ao cadastrar!")
+            } else {
+                print("Usuario cadastrado com sucesso!")
+            }
+        })
     }
 }
