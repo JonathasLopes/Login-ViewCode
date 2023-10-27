@@ -13,6 +13,7 @@ class RegisterViewController: UIViewController {
     var registerScreen:RegisterScreen?
     
     var auth:Auth?
+    var alert:Alert?
     
     override func loadView() {
         self.registerScreen = RegisterScreen()
@@ -24,6 +25,7 @@ class RegisterViewController: UIViewController {
         self.registerScreen?.configTextFieldDelegate(delegate: self)
         self.registerScreen?.delegate(delegate: self)
         self.auth = Auth.auth()
+        self.alert = Alert(controller: self)
     }
 
 }
@@ -49,9 +51,9 @@ extension RegisterViewController:RegisterScreenProtocol {
         
         self.auth?.createUser(withEmail: register.getEmail(), password: register.getPassword(), completion: { result, error in
             if error != nil {
-                print("Houve um erro ao cadastrar!")
+                self.alert?.getAlert(title: "Atenção", message: "Houve um erro ao cadastrar!")
             } else {
-                print("Usuario cadastrado com sucesso!")
+                self.alert?.getAlert(title: "Sucesso", message: "Usuario cadastrado com sucesso!", completion: self.actionBackButton)
             }
         })
     }
