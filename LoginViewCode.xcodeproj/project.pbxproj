@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8610975C2ABDB8BE0012676A /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8610975B2ABDB8BE0012676A /* Alert.swift */; };
+		861946EF2AF3DA3E003D6336 /* SportCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861946EE2AF3DA3E003D6336 /* SportCollectionViewCell.swift */; };
+		861946F22AF3DAD8003D6336 /* SportCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861946F12AF3DAD8003D6336 /* SportCollectionView.swift */; };
 		861D8A222A79CBB900BBB784 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861D8A212A79CBB900BBB784 /* RegisterViewController.swift */; };
 		861D8A242A79CF4900BBB784 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861D8A232A79CF4900BBB784 /* RegisterScreen.swift */; };
 		864B849F2A62321C0090D29E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B849E2A62321C0090D29E /* AppDelegate.swift */; };
@@ -17,7 +19,10 @@
 		864B84AB2A62321D0090D29E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864B84A92A62321D0090D29E /* LaunchScreen.storyboard */; };
 		8654B5002AF1BC3C00C856CD /* DataUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8654B4FF2AF1BC3C00C856CD /* DataUser.swift */; };
 		8654B5032AF1D16700C856CD /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8654B5022AF1D16700C856CD /* UserDetailView.swift */; };
+		8654B5072AF1E0CA00C856CD /* SportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8654B5062AF1E0CA00C856CD /* SportTableViewCell.swift */; };
+		8654B50A2AF1E2A100C856CD /* SportTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8654B5092AF1E2A100C856CD /* SportTableView.swift */; };
 		866408482A660F5300FF02C0 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866408472A660F5300FF02C0 /* LoginScreen.swift */; };
+		866FD3932AF52D45007831B3 /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866FD3922AF52D45007831B3 /* Sport.swift */; };
 		867591192AEB4F7C009131AA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867591182AEB4F7C009131AA /* HomeViewController.swift */; };
 		8675911B2AEB507A009131AA /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8675911A2AEB507A009131AA /* HomeScreen.swift */; };
 		8675911E2AEB59ED009131AA /* UserDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8675911D2AEB59ED009131AA /* UserDetailTableViewCell.swift */; };
@@ -29,6 +34,8 @@
 		068EE688925F03393701C195 /* Pods_LoginViewCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginViewCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB2BEC5DF975E1F00DE8884 /* Pods-LoginViewCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginViewCode.debug.xcconfig"; path = "Target Support Files/Pods-LoginViewCode/Pods-LoginViewCode.debug.xcconfig"; sourceTree = "<group>"; };
 		8610975B2ABDB8BE0012676A /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		861946EE2AF3DA3E003D6336 /* SportCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportCollectionViewCell.swift; sourceTree = "<group>"; };
+		861946F12AF3DAD8003D6336 /* SportCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportCollectionView.swift; sourceTree = "<group>"; };
 		861D8A212A79CBB900BBB784 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		861D8A232A79CF4900BBB784 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		864B849B2A62321C0090D29E /* LoginViewCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginViewCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,7 +47,10 @@
 		864B84AC2A62321D0090D29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8654B4FF2AF1BC3C00C856CD /* DataUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUser.swift; sourceTree = "<group>"; };
 		8654B5022AF1D16700C856CD /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		8654B5062AF1E0CA00C856CD /* SportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportTableViewCell.swift; sourceTree = "<group>"; };
+		8654B5092AF1E2A100C856CD /* SportTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportTableView.swift; sourceTree = "<group>"; };
 		866408472A660F5300FF02C0 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		866FD3922AF52D45007831B3 /* Sport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport.swift; sourceTree = "<group>"; };
 		867591182AEB4F7C009131AA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8675911A2AEB507A009131AA /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		8675911D2AEB59ED009131AA /* UserDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewCell.swift; sourceTree = "<group>"; };
@@ -74,6 +84,23 @@
 				8610975B2ABDB8BE0012676A /* Alert.swift */,
 			);
 			path = Alert;
+			sourceTree = "<group>";
+		};
+		861946ED2AF3D9CB003D6336 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				861946F02AF3DAB9003D6336 /* CustomView */,
+				861946EE2AF3DA3E003D6336 /* SportCollectionViewCell.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		861946F02AF3DAB9003D6336 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				861946F12AF3DAD8003D6336 /* SportCollectionView.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 		861D8A1C2A79CA4300BBB784 /* Register */ = {
@@ -140,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				8654B4FF2AF1BC3C00C856CD /* DataUser.swift */,
+				866FD3922AF52D45007831B3 /* Sport.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -148,6 +176,33 @@
 			isa = PBXGroup;
 			children = (
 				8654B5022AF1D16700C856CD /* UserDetailView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		8654B5042AF1DFFB00C856CD /* UserDetailTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8654B5012AF1D12800C856CD /* CustomView */,
+				8675911D2AEB59ED009131AA /* UserDetailTableViewCell.swift */,
+			);
+			path = UserDetailTableViewCell;
+			sourceTree = "<group>";
+		};
+		8654B5052AF1E08F00C856CD /* SportTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				861946ED2AF3D9CB003D6336 /* CollectionViewCell */,
+				8654B5082AF1E27100C856CD /* CustomView */,
+				8654B5062AF1E0CA00C856CD /* SportTableViewCell.swift */,
+			);
+			path = SportTableViewCell;
+			sourceTree = "<group>";
+		};
+		8654B5082AF1E27100C856CD /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				8654B5092AF1E2A100C856CD /* SportTableView.swift */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -207,8 +262,8 @@
 		8675911C2AEB5987009131AA /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				8654B5012AF1D12800C856CD /* CustomView */,
-				8675911D2AEB59ED009131AA /* UserDetailTableViewCell.swift */,
+				8654B5052AF1E08F00C856CD /* SportTableViewCell */,
+				8654B5042AF1DFFB00C856CD /* UserDetailTableViewCell */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -340,9 +395,14 @@
 				8654B5032AF1D16700C856CD /* UserDetailView.swift in Sources */,
 				861D8A242A79CF4900BBB784 /* RegisterScreen.swift in Sources */,
 				8675911E2AEB59ED009131AA /* UserDetailTableViewCell.swift in Sources */,
+				861946F22AF3DAD8003D6336 /* SportCollectionView.swift in Sources */,
+				861946EF2AF3DA3E003D6336 /* SportCollectionViewCell.swift in Sources */,
+				866FD3932AF52D45007831B3 /* Sport.swift in Sources */,
 				864B84A32A62321C0090D29E /* LoginViewController.swift in Sources */,
 				861D8A222A79CBB900BBB784 /* RegisterViewController.swift in Sources */,
 				8654B5002AF1BC3C00C856CD /* DataUser.swift in Sources */,
+				8654B50A2AF1E2A100C856CD /* SportTableView.swift in Sources */,
+				8654B5072AF1E0CA00C856CD /* SportTableViewCell.swift in Sources */,
 				867591192AEB4F7C009131AA /* HomeViewController.swift in Sources */,
 				866408482A660F5300FF02C0 /* LoginScreen.swift in Sources */,
 				8675911B2AEB507A009131AA /* HomeScreen.swift in Sources */,
